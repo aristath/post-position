@@ -81,7 +81,7 @@ class Aristath_Post_Position {
 
 		// Apply filters to change internal properties.
 		foreach ( array( 'meta_key', 'avoid_doubles', 'supported_post_types', 'conditions', 'posts_per_page' ) as $arg ) {
-			$this->$arg = apply_filters( 'frontpage_post_position_' . $arg, $this->$arg );
+			$this->$arg = apply_filters( 'post_position_' . $arg, $this->$arg );
 		}
 		
 		// Add the metabox.
