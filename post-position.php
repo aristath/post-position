@@ -11,7 +11,7 @@
  */
 
 //  don't call the file directly
-if ( !defined( 'ABSPATH' ) ) {
+if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
